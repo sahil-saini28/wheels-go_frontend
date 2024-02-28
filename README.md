@@ -8,7 +8,7 @@ To get started with the frontend development server, follow these steps:
 
 1. **Clone the repository:**
    
-   `git clone https://github.com/sahil-saini28/Demo-yoga-app.git`
+   `git clone git@github.com:sahil-saini28/wheels-go_frontend.git`
 
 2. **Install dependencies:**
    
