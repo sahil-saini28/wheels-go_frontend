@@ -37,8 +37,11 @@
 
   <dl class="mt-6 flex gap-4 sm:gap-6">
     <div class="flex flex-col-reverse">
-      <dt class="text-sm font-medium text-gray-600">Published</dt>
-      <dd class="text-xs text-gray-500">{dealership.dealership_info.phone_number}</dd>
+      <dt class="text-xs font-medium text-gray-600">car available: <ul>
+        <li>{dealership.cars}</li>
+      </ul></dt>
+      
+      <dd class="text-xs text-gray-500">phone :{dealership.dealership_info.phone_number}</dd>
     </div>
 
     <div class="flex flex-col-reverse">
