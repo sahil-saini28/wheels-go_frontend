@@ -1,38 +1,43 @@
-# create-svelte
+## Wheels@Go App Frontend
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This repository contains the frontend code for the preowned cars App. The frontend is built using Svelte kit Tailwind CSS.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+To get started with the frontend development server, follow these steps:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+1. **Clone the repository:**
+   
+   `git clone https://github.com/sahil-saini28/Demo-yoga-app.git`
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+2. **Install dependencies:**
+   
+   'npm install`
 
-## Developing
+3. **Start the development server:**
+   
+   `npm run dev`
+   
+   The development server will start running on port `5173` by default. You can modify the port in the `vite.config.js` file if needed.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Technologies Used
 
-```bash
-npm run dev
+- Svelte kit 
+- Tailwind CSS
+- Vite
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Project Structure
 
-## Building
+The project structure is as follows:
 
-To create a production version of your app:
+## Usage
 
-```bash
-npm run build
-```
+Once the development server is running, you can access the application by opening a web browser and navigating to `http://localhost:5173`. The application allows users to view yoga classes, book sessions, and manage their bookings.
 
-You can preview the production build with `npm run preview`.
+## Contributing
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
